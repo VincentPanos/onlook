@@ -11,7 +11,6 @@ const App = () => {
   const headers = [{fieldId:'term', field: 'Term'},{fieldId:'iri', field: 'Link'}];
 
   const handlePaging = (newPage) => {
-    console.log("New Page:", newPage);
     setCurrentPage(newPage)
   }
 
