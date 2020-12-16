@@ -1,0 +1,16 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.striped tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.border th, .border td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
